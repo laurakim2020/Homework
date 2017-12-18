@@ -1,4 +1,5 @@
 import sys
+import turtle
 
 def test(did_pass):
     linenum = sys._getframe(1).f_lineno   # Get the caller's line number.
@@ -16,7 +17,12 @@ def test_suite():
   
   print("first sam")
   test(word_sam(samlist)== 1)
-    
+  
+  print("is_prime")
+  test(is_prime(11))
+  test(not is_prime(35))
+  test(is_prime(19911121))
+
     
 list=[3,5,-4,3,17,9]
 wordlist=["sushi","pizza","popcorn","noodles"]
@@ -79,22 +85,43 @@ def word_sam(samlist):
         count += 1
     return count
 print(word_sam(samlist))
-        
-test_suite()
-    
 
-    
+def sqrt(n):
+    """Ex 7:Newtons square root function -"""
+    approx = n/2.0     # Start with some or other guess at the answer
+    while True:
+        better = (approx + n/approx)/2.0
+        print("better",better)
+        if abs(approx - better) < 0.001:
+            return better
+        approx = better
+print("sqrt",sqrt(25.0))
+        
+def is_prime(n):
+    """Write a function, is_prime, which takes a single integer
+    argument and returns True when the argument is a prime number and False otherwise"""
+    for i in range(2,n):
+        if n % i == 0:
+            return False
+    return True
+
+wn = turtle.Screen()
+"""Ex 12:Drunk pirate problem"""
+laura = turtle.Turtle()
+steps = [(160, 20), (-43, 10), (270, 8), (-43, 12)]
+
+for (angle,move) in steps:
+    laura.right(angle)
+    laura.forward(move)
+             
+wn = turtle.Screen()
+"""Ex 12:turtle draws a house"""
+laura.pensize(10)
+house = [(270,50), (30, 50), (120,50), (120,50), (225,70.1), (225,50), (225,70.1), (225,50) ]
+
+for (angle,move) in house:
+    laura.right(angle)
+    laura.forward(move) 
+
             
-        
-        
-        
-        
-
-
-            
-            
-        
-
-
-
-        
+test_suite()               
