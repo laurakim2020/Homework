@@ -106,7 +106,7 @@ def is_prime(n):
     return True
 
 wn = turtle.Screen()
-"""Ex 12:Drunk pirate problem"""
+"""Ex 11:Drunk pirate problem"""
 laura = turtle.Turtle()
 steps = [(160, 20), (-43, 10), (270, 8), (-43, 12)]
 
