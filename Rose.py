@@ -7,7 +7,6 @@ def numflower(num):
     elif num == 2:
         return "Damask Rose"
     elif num == 3:
-        return "Beach Rose"
     elif num == 4:
         return "Dog-Rose"
     else:
