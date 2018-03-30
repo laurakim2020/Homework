@@ -6,7 +6,7 @@ wn = turtle.Screen()
 wn.title("Handling keypresses!")
 wn.bgcolor("lightgreen")
 tess = turtle.Turtle()
-sn=1
+n=1
 
 def h1():
    tess.forward(30)
@@ -20,44 +20,133 @@ def h3():
 def h4():
     wn.bye()
 
+def r():
+    tess.color("red")
+
+def g():
+    tess.color("green")
+
+def b():
+    tess.color("blue")
+
 def h5():
-    tess.color("Red")
+    global n
+    tess.pensize(n)
+    n += 1
+    if n > 20:
+        n = 20
+    return n
 
 def h6():
-    tess.color("Green")
+    global n
+    n -= 1
+    if n < 1:
+        n = 1
+    tess.pensize(n)
+    return n
 
 def h7():
-    tess.color("Blue")
-
-def h8():
-    global sn
-    tess.pensize(sn)
-    sn += 1
-    if sn > 20:
-        sn = 20
-    return sn
-
-def h9():
-    global sn
-    sn -= 1
-    if sn < 1:
-        sn = 1
-    tess.pensize(sn)
-    return sn
-
-def h10():
     turtle.dot(100,"red")
 
 wn.onkey(h1, "Up")
 wn.onkey(h2, "Left")
 wn.onkey(h3, "Right")
 wn.onkey(h4, "q")
-wn.onkey(h5, "R")
-wn.onkey(h6, "G")
-wn.onkey(h7, "B")
-wn.onkey(h8, "+")
-wn.onkey(h9, "-")
-wn.onkey(h10, "d")
+wn.onkey(r, "r")
+wn.onkey(g, "g")
+wn.onkey(b, "b")
+wn.onkey(h5, "+")
+wn.onkey(h6, "-")
+wn.onkey(h7, "d")
 
 wn.listen()
 wn.mainloop()
+
+#Problem 5
+import turtle           # Tess becomes a traffic light.
+
+turtle.setup(400,500)
+wn = turtle.Screen()
+wn.title("Tess becomes a traffic light!")
+wn.bgcolor("lightgreen")
+tess = turtle.Turtle()
+han = turtle.Turtle()
+sam = turtle.Turtle()
+
+
+def draw_housing():
+    """ Draw a nice housing to hold the traffic lights """
+    tess.pensize(3)
+    tess.color("black", "darkgrey")
+    tess.begin_fill()
+    tess.forward(80)
+    tess.left(90)
+    tess.forward(200)
+    tess.circle(40, 180)
+    tess.forward(200)
+    tess.left(90)
+    tess.end_fill()
+
+
+draw_housing()
+
+tess.penup()
+# Position tess onto the place where the green light should be
+tess.forward(40)
+tess.left(90)
+tess.forward(50)
+# Turn tess into a big green circle
+tess.shape("circle")
+tess.shapesize(3)
+tess.fillcolor("green")
+
+han.penup()
+han.goto(40,120)
+han.shape("circle")
+han.shapesize(3)
+han.fillcolor("grey")
+
+sam.penup()
+sam.goto(40,190)
+sam.shape("circle")
+sam.shapesize(3)
+sam.fillcolor("grey")
+# A traffic light is a kind of state machine with three states,
+# Green, Orange, Red.  We number these states  0, 1, 2
+# When the machine changes state, we change tess' position and
+# her fillcolor.
+
+# This variable holds the current state of the machine
+state_num = 0
+
+
+def advance_state_machine():
+    global state_num
+    if state_num == 0:       # Transition from state 0 to state 1
+        han.fillcolor("orange")
+        state_num = 1
+        wn.onkey(advance_state_machine, 1000)
+    elif state_num == 1:     # Transition from state 1 to state 2
+        tess.fillcolor("grey")
+        state_num = 2
+        wn.onkey(advance_state_machine, 1000)
+    elif state_num == 2:
+        han.fillcolor("grey")
+        sam.fillcolor("red")
+        state_num = 3
+        wn.onkey(advance_state_machine, 2000)
+    else:                    # Transition from state 2 to state 0
+        sam.fillcolor("grey")
+        tess.fillcolor("green")
+        state_num = 0
+        wn.onkey(advance_state_machine, 3000)
+
+# Bind the event handler to the space key.
+wn.onkey(advance_state_machine, "space")
+
+wn.listen()                      # Listen for events
+wn.mainloop()
+
+
+
+
