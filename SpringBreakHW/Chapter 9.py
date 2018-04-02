@@ -5,10 +5,3 @@ def tuple((a,b), (c,d)):
         print("less than 25")
 
 print(tuple(3,4), (12,6))
-
-
-
-
-
-
-
