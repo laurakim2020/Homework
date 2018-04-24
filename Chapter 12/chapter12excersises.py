@@ -31,6 +31,15 @@ False
 
 #What does deepcopy do? In which exercises from last chapter would deepcopy have come in handy? Deepcopy copies all objects. It would have come in handy in excercies which you didn't solve anything regarding object reference.
 
+#Problem4
+
+#Problem5
+
+
+
+
+
+
 
 
 
