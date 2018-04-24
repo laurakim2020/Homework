@@ -4,6 +4,10 @@ import random
 
 pygame.init()
 
+#############
+crash_sound = pygame.mixer.Sound("boom.wav")
+#############
+
 display_width = 800
 display_height = 600
 
@@ -24,8 +28,13 @@ pygame.display.set_caption('A bit Racey')
 clock = pygame.time.Clock()
 
 carImg = pygame.image.load('racecar.png')
+gameIcon = pygame.image.load('carIcon.png')
 
-pause = True
+pygame.display.set_icon(gameIcon)
+
+pause = False
+#crash = True
+
 
 def things_dodged(count):
     font = pygame.font.SysFont(None, 25)
@@ -55,18 +64,22 @@ def message_display(text):
     game_loop()
 
 def crash():
+    ####################################
+    pygame.mixer.Sound.play(boom_sound)
+    pygame.mixer.music.stop()
+    ####################################
+    largeText = pygame.font.SysFont("comicsansms", 115)
+    TextSurf, TextRect = text_objects("You Crashed", largeText)
+    TextRect.center = ((display_width / 2), (display_height / 2))
+    gameDisplay.blit(TextSurf, TextRect)
 
-        largeText = pygame.font.SysFont("comicsansms", 115)
-        TextSurf, TextRect = text_objects("You Crashed", largeText)
-        TextRect.center = ((display_width / 2), (display_height / 2))
-        gameDisplay.blit(TextSurf, TextRect)
 
-        while True:
-            for event in pygame.event.get():
-                # print(event)
-                if event.type == pygame.QUIT:
-                    pygame.quit()
-                    quit()
+    while True:
+        for event in pygame.event.get():
+            # print(event)
+            if event.type == pygame.QUIT:
+                pygame.quit()
+                quit()
 
             # gameDisplay.fill(white)
 
@@ -99,10 +112,13 @@ def quitgame():
 
 def unpause():
     global pause
+    pygame.mixer.music.unpause()
     pause = False
 
 def paused():
-
+    ############
+    pygame.mixer.music.pause()
+    #############
     largeText = pygame.font.SysFont("comicsansms",115)
     TextSurf, TextRect = text_objects("Paused", largeText)
     TextRect.center = ((display_width / 2), (display_height / 2))
@@ -151,7 +167,10 @@ def game_intro():
 
 def game_loop():
     global pause
-
+    ############
+    pygame.mixer.music.load('music.mp3')
+    pygame.mixer.music.play(-1)
+    ############
     x = (display_width * 0.45)
     y = (display_height * 0.8)
 

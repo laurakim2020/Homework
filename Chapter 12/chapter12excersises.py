@@ -29,7 +29,7 @@ False
 #Describe how we have been computing the same value as math.sqrt without using the math module. By getting closer to the square root of the start number
 #What are the two data constants in the math module? 'e' & 'pi'
 
-#What does deepcopy do? In which exercises from last chapter would deepcopy have come in handy?
+#What does deepcopy do? In which exercises from last chapter would deepcopy have come in handy? Deepcopy copies all objects. It would have come in handy in excercies which you didn't solve anything regarding object reference.
 
 
 
