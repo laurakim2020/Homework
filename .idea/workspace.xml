@@ -2,7 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa5917a0-0846-45ca-b958-746286061827" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/Chapter 12/mymodule1.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Chapter 12/mymodule2.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Chapter 12/namespace_test.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Chapter 12/wordtools.py" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/Chapter 12/Chapter 12.py" afterPath="$PROJECT_DIR$/Chapter 12/Chapter 12.py" />
+      <change beforePath="$PROJECT_DIR$/Chapter 12/chapter12excersises.py" afterPath="$PROJECT_DIR$/Chapter 12/chapter12excersises.py" />
+      <change beforePath="$PROJECT_DIR$/Chapter 12/module1.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Chapter 12/module2.py" afterPath="" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -13,26 +21,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Chapter 10.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SpringBreakHW/Chapter 10.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="960">
-              <caret line="64" column="0" lean-forward="false" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Chapter 9.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SpringBreakHW/Chapter 9.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="4" lean-forward="false" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="chapter 10-2.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SpringBreakHW/chapter 10-2.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -59,27 +47,49 @@
         <entry file="file://$PROJECT_DIR$/Chapter 12/seqtools.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
-              <caret line="4" column="19" lean-forward="false" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+              <caret line="4" column="12" lean-forward="true" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="module2.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Chapter 12/module2.py">
+      <file leaf-file-name="namespace_test.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Chapter 12/namespace_test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="7" lean-forward="true" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+              <folding>
+                <element signature="e#0#16#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="wordtools.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Chapter 12/wordtools.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="41" lean-forward="true" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mymodule1.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Chapter 12/mymodule1.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="15">
-              <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+              <caret line="1" column="11" lean-forward="true" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="module1.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Chapter 12/module1.py">
+      <file leaf-file-name="mymodule2.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Chapter 12/mymodule2.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <caret line="0" column="9" lean-forward="true" selection-start-line="0" selection-start-column="9" selection-end-line="0" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -88,18 +98,18 @@
       <file leaf-file-name="Chapter 12.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Chapter 12/Chapter 12.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="1" lean-forward="false" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="1" />
+            <state relative-caret-position="90">
+              <caret line="6" column="21" lean-forward="true" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="chapter12excersises.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="chapter12excersises.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Chapter 12/chapter12excersises.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="215">
-              <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+            <state relative-caret-position="558">
+              <caret line="49" column="95" lean-forward="true" selection-start-line="49" selection-start-column="95" selection-end-line="49" selection-end-column="95" />
               <folding />
             </state>
           </provider>
@@ -145,17 +155,22 @@
         <option value="$PROJECT_DIR$/Chapter 12.py" />
         <option value="$PROJECT_DIR$/Chapter 12/seqtools.py" />
         <option value="$PROJECT_DIR$/Chapter 12/Chapter 12.py" />
-        <option value="$PROJECT_DIR$/Chapter 12/module2.py" />
         <option value="$PROJECT_DIR$/Chapter 12/module1.py" />
+        <option value="$PROJECT_DIR$/Chapter 12/module2.py" />
+        <option value="$PROJECT_DIR$/Chapter 12/mymodule.py" />
+        <option value="$PROJECT_DIR$/Chapter 12/mymodule1.py" />
+        <option value="$PROJECT_DIR$/Chapter 12/namespace_test.py" />
+        <option value="$PROJECT_DIR$/Chapter 12/mymodule2.py" />
         <option value="$PROJECT_DIR$/Chapter 12/chapter12excersises.py" />
+        <option value="$PROJECT_DIR$/Chapter 12/wordtools.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="21" />
-    <option name="y" value="79" />
-    <option name="width" value="1419" />
-    <option name="height" value="693" />
+    <option name="x" value="4" />
+    <option name="y" value="23" />
+    <option name="width" value="1408" />
+    <option name="height" value="800" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -175,6 +190,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -191,8 +208,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -221,38 +236,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.module1">
-    <configuration name="Chapter 10" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.wordtools">
+    <configuration name="Chapter 12" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SpringBreakHW" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Chapter 12" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Homework" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SpringBreakHW/Chapter 10.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="chapter 10-2" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SpringBreakHW" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Homework" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SpringBreakHW/chapter 10-2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chapter 12/Chapter 12.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -294,7 +291,7 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="seqtools" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="namespace_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -306,26 +303,44 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Homework" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chapter 12/seqtools.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chapter 12/namespace_test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="wordtools" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Chapter 12" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Homework" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chapter 12/wordtools.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.Chapter 10" />
-      <item index="1" class="java.lang.String" itemvalue="Python.chapter 10-2" />
-      <item index="2" class="java.lang.String" itemvalue="Python.seqtools" />
-      <item index="3" class="java.lang.String" itemvalue="Python.chapter12excersises" />
-      <item index="4" class="java.lang.String" itemvalue="Python.module1" />
+      <item index="0" class="java.lang.String" itemvalue="Python.chapter12excersises" />
+      <item index="1" class="java.lang.String" itemvalue="Python.module1" />
+      <item index="2" class="java.lang.String" itemvalue="Python.Chapter 12" />
+      <item index="3" class="java.lang.String" itemvalue="Python.namespace_test" />
+      <item index="4" class="java.lang.String" itemvalue="Python.wordtools" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.module1" />
-        <item index="1" class="java.lang.String" itemvalue="Python.chapter12excersises" />
-        <item index="2" class="java.lang.String" itemvalue="Python.seqtools" />
-        <item index="3" class="java.lang.String" itemvalue="Python.chapter 10-2" />
-        <item index="4" class="java.lang.String" itemvalue="Python.Chapter 10" />
+        <item index="0" class="java.lang.String" itemvalue="Python.wordtools" />
+        <item index="1" class="java.lang.String" itemvalue="Python.namespace_test" />
+        <item index="2" class="java.lang.String" itemvalue="Python.Chapter 12" />
+        <item index="3" class="java.lang.String" itemvalue="Python.chapter12excersises" />
+        <item index="4" class="java.lang.String" itemvalue="Python.module1" />
       </list>
     </recent_temporary>
   </component>
@@ -406,16 +421,23 @@
       <option name="project" value="LOCAL" />
       <updated>1524593631477</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="New">
+      <created>1524593643705</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1524593643705</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="21" y="79" width="1419" height="693" extended-state="0" />
+    <frame x="4" y="23" width="1408" height="800" extended-state="0" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21423538" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2159091" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32440057" sideWeight="0.51404494" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30756843" sideWeight="0.48595506" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26236263" sideWeight="0.48595506" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -454,44 +476,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pygame/practice1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SpringBreakHW/Chapter 9.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="4" lean-forward="false" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SpringBreakHW/Chapter 10.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="960">
-          <caret line="64" column="0" lean-forward="true" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter6.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SpringBreakHW/Chapter 11.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="19" lean-forward="false" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pygame/Shapes.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
@@ -530,7 +514,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="4" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -717,7 +700,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="4" lean-forward="false" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -755,42 +737,63 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter 12/Chapter 12.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="1" lean-forward="false" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter 12/seqtools.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="19" lean-forward="false" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter 12/module2.py">
+    <entry file="file://$PROJECT_DIR$/Chapter 12/module1.py" />
+    <entry file="file://$PROJECT_DIR$/Chapter 12/module2.py" />
+    <entry file="file://$PROJECT_DIR$/Chapter 12/mymodule.py" />
+    <entry file="file://$PROJECT_DIR$/Chapter 12/mymodule1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
-          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <caret line="1" column="11" lean-forward="true" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter 12/module1.py">
+    <entry file="file://$PROJECT_DIR$/Chapter 12/mymodule2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="9" lean-forward="true" selection-start-line="0" selection-start-column="9" selection-end-line="0" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter 12/Chapter 12.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="21" lean-forward="true" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Chapter 12/chapter12excersises.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+        <state relative-caret-position="558">
+          <caret line="49" column="95" lean-forward="true" selection-start-line="49" selection-start-column="95" selection-end-line="49" selection-end-column="95" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter 12/namespace_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="7" lean-forward="true" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+          <folding>
+            <element signature="e#0#16#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter 12/seqtools.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="12" lean-forward="true" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter 12/wordtools.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="41" lean-forward="true" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
           <folding />
         </state>
       </provider>
