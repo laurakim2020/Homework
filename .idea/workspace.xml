@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa5917a0-0846-45ca-b958-746286061827" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/Chapter 12/mymodule1.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Chapter 12/mymodule2.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Chapter 12/namespace_test.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Chapter 12/wordtools.py" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Chapter 12/Chapter 12.py" afterPath="$PROJECT_DIR$/Chapter 12/Chapter 12.py" />
-      <change beforePath="$PROJECT_DIR$/Chapter 12/chapter12excersises.py" afterPath="$PROJECT_DIR$/Chapter 12/chapter12excersises.py" />
-      <change beforePath="$PROJECT_DIR$/Chapter 12/module1.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Chapter 12/module2.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Chapter 12/wordtools.py" afterPath="$PROJECT_DIR$/Chapter 12/wordtools.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -68,8 +61,8 @@
       <file leaf-file-name="wordtools.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Chapter 12/wordtools.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="41" lean-forward="true" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
+            <state relative-caret-position="150">
+              <caret line="10" column="1" lean-forward="false" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -428,13 +421,20 @@
       <option name="project" value="LOCAL" />
       <updated>1524593643705</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="capter 12">
+      <created>1524746997534</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1524746997534</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="4" y="23" width="1408" height="800" extended-state="0" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2159091" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2159091" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32440057" sideWeight="0.51404494" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26236263" sideWeight="0.48595506" order="2" side_tool="false" content_ui="tabs" />
@@ -460,7 +460,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Chapter 8 Homework" />
     <MESSAGE value="New" />
-    <option name="LAST_COMMIT_MESSAGE" value="New" />
+    <MESSAGE value="capter 12" />
+    <option name="LAST_COMMIT_MESSAGE" value="capter 12" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -792,8 +793,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Chapter 12/wordtools.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="41" lean-forward="true" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
+        <state relative-caret-position="150">
+          <caret line="10" column="1" lean-forward="false" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
           <folding />
         </state>
       </provider>

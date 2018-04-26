@@ -8,7 +8,7 @@ test(cleanword("'now!'") == "now")
 test(cleanword("?+='w-o-r-d!,@$()'") ==  "word")
 
 
-
+#
 # test(has_dashdash("distance--but"))
 # test(not has_dashdash("several"))
 # test(has_dashdash("spoke--"))
