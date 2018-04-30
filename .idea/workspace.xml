@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aa5917a0-0846-45ca-b958-746286061827" name="Default" comment="homework">
+    <list default="true" id="aa5917a0-0846-45ca-b958-746286061827" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -435,7 +435,14 @@
       <option name="project" value="LOCAL" />
       <updated>1524971635036</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="homework">
+      <created>1525101355812</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1525101355812</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -469,7 +476,8 @@
     <MESSAGE value="New" />
     <MESSAGE value="capter 12" />
     <MESSAGE value="revised" />
-    <option name="LAST_COMMIT_MESSAGE" value="revised" />
+    <MESSAGE value="homework" />
+    <option name="LAST_COMMIT_MESSAGE" value="homework" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
