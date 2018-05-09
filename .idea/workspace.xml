@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa5917a0-0846-45ca-b958-746286061827" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/Chapter 15/practice_H_1.py" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Chapter 14/practice1_H.py" afterPath="$PROJECT_DIR$/Chapter 14/practice1_H.py" />
-      <change beforePath="$PROJECT_DIR$/Chapter 14/practiceF.py" afterPath="$PROJECT_DIR$/Chapter 14/practiceF.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -87,7 +86,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="practice1_H.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="practice1_H.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Chapter 14/practice1_H.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="330">
@@ -99,21 +98,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Exercise 2&amp;3.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Chapter 12/Exercise 2&amp;3.py">
+      <file leaf-file-name="practice_H_1.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Chapter 15/practice_H_1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+            <state relative-caret-position="382">
+              <caret line="36" column="21" lean-forward="true" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Exercise 1.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Chapter 12/Exercise 1.py">
+      <file leaf-file-name="Exercise 2&amp;3.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Chapter 12/Exercise 2&amp;3.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+            <state relative-caret-position="270">
+              <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -168,6 +167,7 @@
         <option value="$PROJECT_DIR$/Chapter 14/unit_tester.py" />
         <option value="$PROJECT_DIR$/Chapter 14/practiceF.py" />
         <option value="$PROJECT_DIR$/Chapter 14/practice1_H.py" />
+        <option value="$PROJECT_DIR$/Chapter 15/practice_H_1.py" />
       </list>
     </option>
   </component>
@@ -209,6 +209,11 @@
               <item name="Homework" type="462c0819:PsiDirectoryNode" />
               <item name="Chapter 14" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Homework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Homework" type="462c0819:PsiDirectoryNode" />
+              <item name="Chapter 15" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -241,25 +246,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.practice1_H">
-    <configuration name="Chapter 12" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Chapter 12" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Homework" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chapter 12/Chapter 12.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
+  <component name="RunManager" selected="Python.practice_H_1">
     <configuration name="namespace_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -314,6 +301,24 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="practice_H_1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Chapter 15" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Homework" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chapter 15/practice_H_1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="wordtools" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -333,19 +338,19 @@
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.Chapter 12" />
-      <item index="1" class="java.lang.String" itemvalue="Python.namespace_test" />
-      <item index="2" class="java.lang.String" itemvalue="Python.wordtools" />
-      <item index="3" class="java.lang.String" itemvalue="Python.practice1_H" />
-      <item index="4" class="java.lang.String" itemvalue="Python.practiceF" />
+      <item index="0" class="java.lang.String" itemvalue="Python.namespace_test" />
+      <item index="1" class="java.lang.String" itemvalue="Python.wordtools" />
+      <item index="2" class="java.lang.String" itemvalue="Python.practice1_H" />
+      <item index="3" class="java.lang.String" itemvalue="Python.practiceF" />
+      <item index="4" class="java.lang.String" itemvalue="Python.practice_H_1" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.practice1_H" />
-        <item index="1" class="java.lang.String" itemvalue="Python.practiceF" />
-        <item index="2" class="java.lang.String" itemvalue="Python.wordtools" />
-        <item index="3" class="java.lang.String" itemvalue="Python.namespace_test" />
-        <item index="4" class="java.lang.String" itemvalue="Python.Chapter 12" />
+        <item index="0" class="java.lang.String" itemvalue="Python.practice_H_1" />
+        <item index="1" class="java.lang.String" itemvalue="Python.practice1_H" />
+        <item index="2" class="java.lang.String" itemvalue="Python.practiceF" />
+        <item index="3" class="java.lang.String" itemvalue="Python.wordtools" />
+        <item index="4" class="java.lang.String" itemvalue="Python.namespace_test" />
       </list>
     </recent_temporary>
   </component>
@@ -475,13 +480,21 @@
       <option name="project" value="LOCAL" />
       <updated>1525285305259</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="new">
+      <created>1525435969581</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1525435969582</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="12" y="23" width="1408" height="800" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2159091" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2159091" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32440057" sideWeight="0.51404494" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26236263" sideWeight="0.48595506" order="2" side_tool="false" content_ui="tabs" />
@@ -527,13 +540,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pygame/Shapes.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="37" lean-forward="false" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pygame/intro_ball (1).gif">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -866,6 +872,14 @@
           <folding>
             <element signature="e#0#28#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter 15/practice_H_1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="382">
+          <caret line="36" column="21" lean-forward="true" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
+          <folding />
         </state>
       </provider>
     </entry>
